@@ -1,0 +1,102 @@
+:root {
+    --brand-color:#2196F3;
+    --title-color:#212121;
+    --text-color:#757575;
+    --hero-color:#FFFFFF;
+    --contact-color:rgba(255, 255, 255, 0.6);
+    --main-background:#FFFFFF;
+    --secondary-background:#F5F4FA;
+}
+
+body {
+    color: var(--text-color);
+}
+/* Header */
+.logo-accent {
+    color:var(--brand-color)
+}
+
+.logo-link {
+    color:var(--title-color)
+}
+
+.nav {
+    color: var(--title-color);
+}
+
+.nav-link {
+    color: inherit;
+}
+
+.nav-link:hover, .nav-link:focus, .contacts:hover, .contacts:focus {
+    color: var(--brand-color);
+}
+
+.header-contacts {
+    color:var(--text-color)
+}
+
+.current-link {
+    color: var(--brand-color);
+}
+
+/* Hero */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: var(--hero-color);
+}
+
+.button {
+    color: var(--hero-color);
+    background-color: var(--brand-color);
+}
+
+/*Our features */
+.features {
+    background-color: var(--main-background);
+}
+.features-title {
+    color: var(--title-color);
+}
+
+/*Activity*/
+.activity {
+    background-color: var(--main-background);
+}
+
+ .activity-title {
+     color: var(--title-color);
+ }
+
+ /* Team */
+ .team {
+     background-color: var(--secondary-background);
+ }
+
+.team-title {
+    color: var(--title-color);
+}
+
+.teammate-name {
+    color: var(--title-color);
+}
+
+/* Footer */
+.footer-section {
+    background-color: #2F303A;
+}
+
+.footer-logo {
+    color: #FFFFFF;
+}
+
+.address {
+    color: #FFFFFF;
+}
+
+.footer-contacts {
+    color: rgba(255, 255, 255, 0.6)
+}
