@@ -28,7 +28,7 @@ body {
     color: inherit;
 }
 
-.nav-link:hover, .nav-link:focus, .contacts:hover, .contacts:focus {
+.nav-link:hover, .nav-link:focus, .header-contacts:hover, .header-contacts:focus {
     color: var(--brand-color);
 }
 
@@ -99,4 +99,24 @@ body {
 
 .footer-contacts {
     color: rgba(255, 255, 255, 0.6)
+}
+
+.footer-contacts:hover, .footer-contacts:focus {
+    color: var(--brand-color);
+}
+/* Portfolio.html */
+/*Projects */
+.projects-link {
+    color: var(--title-color);
+    background-color: #F5F4FA;
+}
+
+.projects-link:hover, .projects-link:focus {
+    color: var(--hero-color);
+    background-color: var(--brand-color);
+    cursor: pointer;
+}
+
+.project-name {
+    color: var(--title-color);
 }
